@@ -22,9 +22,7 @@ For WN18RR and FB15k237 datasets, we use files from [KG-BERT](https://github.com
 ### FB15k-237 dataset
 
 Step 1, extract the path from dataset
-```
-bash scripts/extractpath.sh FB15k237
-```
+
 Step 2, preprocess the dataset
 ```
 bash scripts/preprocess.sh FB15k237
@@ -43,9 +41,7 @@ Feel free to change the output directory to any path you think appropriate.
 
 ### WN18RR dataset
 Step 1, extract the path from dataset
-```
-bash scripts/extractpath.sh WN18RR
-```
+
 Step 2, preprocess the dataset
 ```
 bash scripts/preprocess.sh WN18RR
